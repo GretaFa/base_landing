@@ -1,163 +1,312 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="main-header">
-        <nav class="nav container">
-            <div class="flex-between">
-                <div>
-                    <img src="https://via.placeholder.com/50/fff/808080%20" alt="logo">
-                </div>
-                <ul class="nav flex-between w-50">
-                    <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav container">
+        <div class="flex-between">
+          <div>
+            <img
+              src="https://via.placeholder.com/50/fff/808080%20"
+              alt="logo"
+            />
+          </div>
+          <ul class="nav flex-between w-50">
+            <li class="nav-item">
+              <a href="" class="nav-link">Lorem Ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Lorem Ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Lorem Ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Lorem Ipsum</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="homepage-main main container">
-        <section class="card-section">
-            <article class="card">
-                <header class="card-header">
-                    <a href="#">
-                        <img class="card-img"
-                            src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            alt="Fejlesztői fotó">
-                    </a>
-                </header>
-                <div class="card-body">
-                    <span class="tag">Hírek</span>
-                    <p class="card-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </p>
-                    <div class="flex-center">
-                        <a href="#" class="primary-btn btn">Bővebben</a>
-                    </div>
-                </div>
-            </article>
-            <article class="card">
-                <header class="card-header">
-                    <a href="#">
-                        <img class="card-img"
-                            src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            alt="Fejlesztői fotó">
-                    </a>
-                </header>
-                <div class="card-body">
-                    <span class="tag">Hírek</span>
-                    <p class="card-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </p>
-                    <div class="flex-center">
-                        <a href="#" class="primary-btn btn">Bővebben</a>
-                    </div>
-                </div>
-            </article>
-            <article class="card">
-                <header class="card-header">
-                    <a href="#">
-                        <img class="card-img"
-                            src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            alt="Fejlesztői fotó">
-                    </a>
-                </header>
-                <div class="card-body">
-                    <span class="tag">Hírek</span>
-                    <p class="card-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </p>
-                    <div class="flex-center">
-                        <a href="#" class="primary-btn btn">Bővebben</a>
-                    </div>
-                </div>
-            </article>
-            <article class="card">
-                <header class="card-header">
-                    <a href="#">
-                        <img class="card-img"
-                            src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            alt="Fejlesztői fotó">
-                    </a>
-                </header>
-                <div class="card-body">
-                    <span class="tag">Hírek</span>
-                    <p class="card-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </p>
-                    <div class="flex-center">
-                        <a href="#" class="primary-btn btn">Bővebben</a>
-                    </div>
-                </div>
-            </article>
-        </section>
-    </main>
-  
-    <footer class="main-footer">
-        <div class="container">
-            <div class="flex-wrap">
-                <div class="column">
-                    <div class="flex-between">
-                        <div class="column">
-                            <img src="https://via.placeholder.com/50/fff/808080%20" alt="">  
+      <style>
+        table {
+          table-layout: fixed;
+          width: 100%;
+          border-collapse: collapse;
+          border: 3px solid purple;
+          background-color: #fef;
+        }
 
-                        </div>
-                        <div class="w-full">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen book.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="column">
-                    <h4 class="heading w-full">Cím</h4>
-                    <ul class="nav w-full">
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4 class="heading w-full">Cím</h4>
-                    <ul class="nav w-full">
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4 class="heading w-full">Cím</h4>
-                    <ul class="nav w-full">
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Lorem Ipsum</a></li>
-                    </ul>
-                </div>
-            </div>
+        td,
+        tr {
+          border: 1px solid purple;
+          padding: 1em;
+        }
+
+        thead th:nth-child(1) {
+          width: 30%;
+        }
+
+        thead th:nth-child(2) {
+          width: 20%;
+        }
+
+        thead th:nth-child(3) {
+          width: 15%;
+        }
+
+        thead th:nth-child(4) {
+          width: 35%;
+        }
+      </style>
+      <h1 class="text-center">Style guide</h1>
+      <section class="container" style="min-height: 500px">
+        <h2 class="text-center">Tables</h2>
+        <div class="p-3">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          
+          <table>
+            <caption>
+              A summary of the UK's most famous punk bands
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Band</th>
+                <th scope="col">Year formed</th>
+                <th scope="col">No. of Albums</th>
+                <th scope="col">Most famous song</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Buzzcocks</th>
+                <td>1976</td>
+                <td>9</td>
+                <td>Ever fallen in love (with someone you shouldn't've)</td>
+              </tr>
+              <tr>
+                <th scope="row">The Clash</th>
+                <td>1976</td>
+                <td>6</td>
+                <td>London Calling</td>
+              </tr>
+              <tr>
+                <th scope="row">The Stranglers</th>
+                <td>1974</td>
+                <td>17</td>
+                <td>No More Heroes</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="2">Total albums</th>
+                <td colspan="2">77</td>
+              </tr>
+            </tfoot>
+          </table>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
         </div>
-    </footer>
-</body>
+      </section>
+      <section class="card-section">
+        <article class="card">
+          <header class="card-header">
+            <a href="#">
+              <img
+                class="card-img"
+                src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="Fejlesztői fotó"
+              />
+            </a>
+          </header>
+          <div class="card-body">
+            <span class="tag">Hírek</span>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="flex-center">
+              <a href="#" class="primary-btn btn">Bővebben</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <header class="card-header">
+            <a href="#">
+              <img
+                class="card-img"
+                src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="Fejlesztői fotó"
+              />
+            </a>
+          </header>
+          <div class="card-body">
+            <span class="tag">Hírek</span>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="flex-center">
+              <a href="#" class="primary-btn btn">Bővebben</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <header class="card-header">
+            <a href="#">
+              <img
+                class="card-img"
+                src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="Fejlesztői fotó"
+              />
+            </a>
+          </header>
+          <div class="card-body">
+            <span class="tag">Hírek</span>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="flex-center">
+              <a href="#" class="primary-btn btn">Bővebben</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <header class="card-header">
+            <a href="#">
+              <img
+                class="card-img"
+                src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="Fejlesztői fotó"
+              />
+            </a>
+          </header>
+          <div class="card-body">
+            <span class="tag">Hírek</span>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="flex-center">
+              <a href="#" class="primary-btn btn">Bővebben</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
 
+    <footer class="main-footer">
+      <div class="container">
+        <div class="flex-wrap">
+          <div class="column">
+            <div class="flex-between">
+              <div class="column">
+                <img
+                  src="https://via.placeholder.com/50/fff/808080%20"
+                  alt=""
+                />
+              </div>
+              <div class="w-full">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h4 class="heading w-full">Cím</h4>
+            <ul class="nav w-full">
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4 class="heading w-full">Cím</h4>
+            <ul class="nav w-full">
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4 class="heading w-full">Cím</h4>
+            <ul class="nav w-full">
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Lorem Ipsum</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
